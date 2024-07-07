@@ -11,17 +11,18 @@
 header {
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: 25px 25px, bottom right;
+    background-position: 50px 40px, bottom right;
     height: 100vh;
-    background-size: 80px, 800px;
-    
+    background-size: 85px, 750px;
+    background-color: #FFF8F3;
 }
 
 .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 51px 226px;
+    margin: 0px 226px;
+    padding: 51px 0px;
 }
 
 .nav-title {
@@ -97,7 +98,7 @@ header {
 }
 
 .image-contents .img1 {
-    width: 545px;
+    width: 501px;
 }
 
 .banner-contents .btn2 {
@@ -135,5 +136,54 @@ header {
     transition: 0.4s;
 }
 
+.about {
+    margin: 7% 10%;
+    background-color: #FFF8F3;
+    padding: 10% 10%;
+    border-radius: 30px;
+}
 
+.about-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #FFFFFF;
+    height: 200px;
+    padding: 5%;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.about-contents .info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about-contents .info .in {
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.about-contents h3 {
+    font-size: 35px;
+}
+
+.about-contents p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.info h6 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: bolder;
+}
 
