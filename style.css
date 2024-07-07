@@ -1,0 +1,139 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+}
+
+* {
+    font-family: var(--roboto);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 25px, bottom right;
+    height: 100vh;
+    background-size: 80px, 800px;
+    
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 226px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.nav-title span {
+    color: #FD6E0A;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.navigation .btn {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation .btn:hover {
+    background-color: green;
+    transition: 0.4s;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 226px;
+    align-items: center;
+}
+
+.banner .banner-contents {
+    max-width: 585px;
+}
+
+.banner-contents h4 {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-contents h2 {
+    font-size: 85px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.banner-contents p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.image-contents .img1 {
+    width: 545px;
+}
+
+.banner-contents .btn2 {
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-contents .btn2:hover {
+    background-color: green;
+    transition: 0.4s;
+}
+
+.banner-contents .btn3 {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.banner-contents .btn3:hover {
+    background-color: green;
+    transition: 0.4s;
+}
+
+
+
