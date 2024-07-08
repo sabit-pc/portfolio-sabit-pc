@@ -98,6 +98,16 @@ header {
     margin-bottom: 15px;
 }
 
+.banner-contents .fa-download {
+    width: 24px;
+    height: 10px;
+}
+
+.banner-contents .fa-phone {
+    width: 24px;
+    height: 10px;
+}
+
 .image-contents .img1 {
     width: 501px;
 }
@@ -120,14 +130,14 @@ header {
 }
 
 .banner-contents .btn3 {
-    width: 150px;
+    width: 160px;
     height: 64px;
-    background-color: #FD6E0A;
-    color: white;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #FD6E0A;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -135,6 +145,8 @@ header {
 .banner-contents .btn3:hover {
     background-color: green;
     transition: 0.4s;
+    color: white;
+    border: none;
 }
 
 /* about section */
@@ -240,4 +252,166 @@ header {
     font-weight: normal;
     text-align: start;
 
+}
+
+/* resume section starts */
+
+.resume {
+    margin: 0px 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.resume h3 {
+    font-weight: 800;
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin-top: 40px;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30.5px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30.5px;
+}
+
+.big-info {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.small-info {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.smaller-info {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.resume .btn4 {
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 30px;
+    
+}
+
+.resume .btn4:hover {
+    background-color: green;
+    transition: 0.4s;
+}
+
+.resume .btn4 .fa-download {
+    width: 24px;
+    height: 10px;
+}
+
+/* footer section */
+
+.footer {
+    padding: 110px 230px;
+    background-color: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+    justify-content: center;
+}
+
+.footer-container .connect h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.footer-container .connect p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-container .connect .social-media-connection img {
+    margin-right: 15px;
+}
+
+.footer-container .message {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-container .message h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.message .write {
+    width: 350px;
+    height: 64px;
+    background-color: white;
+    border-radius: 7px;
+    font-family: var(--roboto);
+    border: 0.2px solid grey;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.message .sms {
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 180px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-family: var(--roboto);
+    border: 0.2px solid grey;
+}
+
+textarea::placeholder {
+    text-align: left;
+    font-size: 12px;
+}
+
+.message .btn5 {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.message .btn5:hover {
+    background-color: green;
+    transition: 0.4s;
 }
